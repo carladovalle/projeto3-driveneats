@@ -19,69 +19,79 @@
              <div class="titulosecundario">Primeiro, o seu prato</div>
              <div class="produtos">
                 <div class="produto">
+                <button onclick="selecionarcomida(this)">
                  <div class="foto"><img src="/images//pizza4queijos.jpg"  class="detalhesfoto"/></div>
-                 <div class="nome">Pizza Quatro Queijos</div>
+                 <div class="nome">Pizza</div>
                  <div class="descrição">Mussarela, provolone, parmesão e cheddar</div>
                  <div class="preço">R$ 48,90</div>
-                </div>
+                 <div class="icone"><ion-icon name="checkmark-circle-outline"></ion-icon></div>
+                </button></div>
                 <div class="produto">
+                <button onclick="selecionarcomida(this)">
                 <div class="foto"><img src="/images//hamburguer.webp" class="detalhesfoto"/></div>
                 <div class="nome">Hambúrguer</div>
-                <div class="descrição">Pão, bife, alface, tomate, bacon e queijo</div>
+                <div class="descrição">Pão, bife, alface e cheddar</div>
                 <div class="preço">R$ 24,90</div>
-                </div>
+                </button></div>
                 <div class="produto">
+                <button onclick="selecionarcomida(this)">
                 <div class="foto"><img src="/images//batatafrita.jpg" class="detalhesfoto" /></div>
                 <div class="nome">Batata Frita</div>
                 <div class="descrição">Com ketchup</div>
                 <div class="preço">R$ 18,90</div>
-                </div>
+                </button></div>
             </div>        
          </div>
          <div class="bebida">
              <div class="titulosecundario">Agora, a sua bebida</div>
             <div class="produtos">
                <div class="produto">
+                <button onclick="selecionarbebida(this)">
                 <div class="foto"><img src="images//agua.jpg" class="detalhesfoto" /></div>
                 <div class="nome">Água</div>
                 <div class="descrição">Gelada</div>
                 <div class="preço">R$ 4,90</div>
-               </div>
+                </button></div>
                <div class="produto">
+               <button onclick="selecionarbebida(this)">
                <div class="foto"><img src="images//coca.jpg" class="detalhesfoto"/></div>
                <div class="nome">Coca cola</div>
                <div class="descrição">Sem açúcar</div>
                <div class="preço">R$ 6,90</div>
-               </div>
+               </button></div>
                <div class="produto">
+               <button onclick="selecionarbebida(this)">
                <div class="foto"><img src="images//sucosnaturais.jpg" class="detalhesfoto"/></div>
                <div class="nome">Sucos naturais</div>
                <div class="descrição">De todos os sabores</div>
                <div class="preço">R$ 8,90</div>
-               </div>
+               </button></div>
            </div>        
         </div>
         <div class="sobremesa">
             <div class="titulosecundario">Por fim, sua sobremesa</div>
             <div class="produtos">
                <div class="produto">
+                <button onclick="selecionarsobremesa(this)">
                 <div class="foto"><img src="images//_sorvete-de-chocolate.jpg" class="detalhesfoto" /></div>
                 <div class="nome">Sorvete</div>
                 <div class="descrição">Vegano</div>
                 <div class="preço">R$ 16,90</div>
                </div>
                <div class="produto">
+               <button onclick="selecionarsobremesa(this)">
                <div class="foto"><img src="images//brigadeiro.webp" class="detalhesfoto" /></div>
                <div class="nome">Brigadeiro</div>
                <div class="descrição">A unidade</div>
                <div class="preço">R$ 2,90</div>
-               </div>
+               </button></div>
                <div class="produto">
+               <button onclick="selecionarsobremesa(this)">
                <div class="foto"><img src="images//torta-trufa-limao.jpg" class="detalhesfoto" /></div>
                <div class="nome">Pedaço de torta</div>
                <div class="descrição">Sem glúten e sem lactose</div>
                <div class="preço">R$ 8,90</div>
-               </div>
+               </button></div>
            </div>        
         </div>
      </div>
@@ -92,6 +102,8 @@
             </div>
         </div> 
      </div>
+     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+     <script src="scripts.js"></script>
 </body>
 
 </html>

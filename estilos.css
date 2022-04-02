@@ -1,0 +1,125 @@
+.topo {
+    background-color: #CF2B2B;
+    width: 414px;
+    height: 92px;
+    color: #FFFFFF;
+    display: row;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 2px 4px gray, 
+    0px 0 red;
+}
+.titulo {
+    font-size: 44px;
+    font-family: 'Righteous', cursive;
+    margin-left: 21px;
+    margin-top: 8px;
+}
+.subtitulo {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 21px;
+    margin-top: 5px;
+}
+.container {
+    width: 414px;
+    margin-top: 92px;
+}
+.produtos {
+    display: flex;
+    flex: row;
+    overflow-x: scroll;
+    background-color: #E5E5E5;;
+}
+.comida {
+    background-color: #E5E5E5;;
+    height: 289px;
+}
+.bebida {
+    background-color: #E5E5E5;;
+    height: 289px;
+}
+.sobremesa {
+    margin-bottom: 92px;
+    background-color: #E5E5E5;;
+    height: 289px;
+}
+.titulosecundario {
+    width: 320px;
+    height: 25px;
+    font-size: 26px;
+    font-family: 'Righteous', cursive;
+    margin-left: 19px;
+    padding: 10px;
+}
+.produto {
+    width: 172px;
+    height: 216px;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 19px;
+    background-color: #FFFFFF;
+}
+.foto {
+    margin-top: 18px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.detalhesfoto {
+    width: 144px;
+    height: 87px;
+    border-radius: 12px;
+}
+.nome {
+font-size: 16px;
+color: #333333;
+margin-left: 15px;
+margin-top: 8px;
+font-weight: bold;
+}
+.descrição {
+font-size: 15px;
+color: #A6A6A6;
+margin-left: 14px;
+margin-top: 4px;
+}
+.preço {
+font-size: 16px;
+color: #000000;
+margin-left: 14px;
+margin-top: 5px;
+}
+.seleção {
+    background-color: #FFFFFF;
+    width: 414px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    margin-top: 934px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.seleciona {
+    background-color: #CBCBCB;
+    width: 364px;
+    height: 61px;
+    border-radius: 40px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textoseleciona {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    width: 200px;
+}
+@media (max-width: 414px) {
+    .produtos {
+        scrollbar-width: none;
+    }
+}

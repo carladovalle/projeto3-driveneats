@@ -10,6 +10,7 @@
     top: 0;
     box-shadow: 0px 2px 4px gray, 
     0px 0 red;
+    z-index: 1;
 }
 .titulo {
     font-size: 44px;
@@ -91,6 +92,24 @@
     margin-left: 14px;
     margin-top: 5px;
 }
+.preçocomida {
+    font-size: 16px;
+    color: #000000;
+    margin-left: 14px;
+    margin-top: 5px;
+}
+.preçobebida {
+    font-size: 16px;
+    color: #000000;
+    margin-left: 14px;
+    margin-top: 5px;
+}
+.preçosobremesa {
+    font-size: 16px;
+    color: #000000;
+    margin-left: 14px;
+    margin-top: 5px;
+}
 .seleção {
     background-color: #FFFFFF;
     width: 414px;
@@ -118,10 +137,9 @@
     color: #FFFFFF;
     width: 200px;
 }
-.icone {
-    display: none;
-    color: #32B72F;
-    font-size: 12px;
+.seleciona button {
+    background-color: #CBCBCB;
+    border: rgba(0,0,0,0);
 }
 .produto button {
     background-color: #FFFFFF;
@@ -129,12 +147,47 @@
     height: 216px;
     border-radius: 12px;
 }
+.icone {
+    color: #32B72F;
+    margin-left: 140px;
+}
 .produto button.selecionado {
-    border-color: green;
+    border-color: #32B72F;
     background-color: #FFFFFF;
+}
+.produto button.comidaselecionada {
+    border-color: #32B72F;
+    background-color: #FFFFFF;
+}
+.fecharpedido {
+    background-color: #32B72F;
+    width: 364px;
+    height: 61px;
+    border-radius: 40px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fecharpedido button {
+    background-color: #32B72F;
+    border: rgba(0,0,0,0);
+}
+.textofecharpedido {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    border: none;
+}
+.escondido {
+    display: none;
 }
 @media (max-width: 414px) {
     .produtos {
-        scrollbar-width: none;
+    
     }
 }

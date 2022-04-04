@@ -20,11 +20,11 @@
              <div class="produtos">
                 <div class="produto">
                 <button onclick="selecionarcomida(this)">
-                 <div class="foto"><img src="/images//pizza4queijos.jpg"  class="detalhesfoto"/></div>
+                 <div class="foto"><img src="/images//pizza4queijos.jpg" class="detalhesfoto"/></div>
                  <div class="nome">Pizza</div>
                  <div class="descrição">Mussarela, provolone, parmesão e cheddar</div>
                  <div class="preço">R$ 48,90</div>
-                 <div class="icone"><ion-icon name="checkmark-circle-outline"></ion-icon></div>
+                 <div class="icone escondido"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </button></div>
                 <div class="produto">
                 <button onclick="selecionarcomida(this)">
@@ -32,6 +32,7 @@
                 <div class="nome">Hambúrguer</div>
                 <div class="descrição">Pão, bife, alface e cheddar</div>
                 <div class="preço">R$ 24,90</div>
+                <div class="icone escondido"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </button></div>
                 <div class="produto">
                 <button onclick="selecionarcomida(this)">
@@ -39,6 +40,7 @@
                 <div class="nome">Batata Frita</div>
                 <div class="descrição">Com ketchup</div>
                 <div class="preço">R$ 18,90</div>
+                <div class="icone escondido"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </button></div>
             </div>        
          </div>
@@ -51,6 +53,7 @@
                 <div class="nome">Água</div>
                 <div class="descrição">Gelada</div>
                 <div class="preço">R$ 4,90</div>
+                <div class="icone escondido"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </button></div>
                <div class="produto">
                <button onclick="selecionarbebida(this)">
@@ -58,6 +61,7 @@
                <div class="nome">Coca cola</div>
                <div class="descrição">Sem açúcar</div>
                <div class="preço">R$ 6,90</div>
+               <div class="icone escondido"><ion-icon name="checkmark-circle"></ion-icon></div>
                </button></div>
                <div class="produto">
                <button onclick="selecionarbebida(this)">
@@ -65,6 +69,7 @@
                <div class="nome">Sucos naturais</div>
                <div class="descrição">De todos os sabores</div>
                <div class="preço">R$ 8,90</div>
+               <div class="icone escondido"><ion-icon name="checkmark-circle"></ion-icon></div>
                </button></div>
            </div>        
         </div>
@@ -77,6 +82,7 @@
                 <div class="nome">Sorvete</div>
                 <div class="descrição">Vegano</div>
                 <div class="preço">R$ 16,90</div>
+                <div class="icone escondido"><ion-icon name="checkmark-circle"></ion-icon></div>
                </div>
                <div class="produto">
                <button onclick="selecionarsobremesa(this)">
@@ -84,6 +90,7 @@
                <div class="nome">Brigadeiro</div>
                <div class="descrição">A unidade</div>
                <div class="preço">R$ 2,90</div>
+               <div class="icone escondido"><ion-icon name="checkmark-circle"></ion-icon></div>
                </button></div>
                <div class="produto">
                <button onclick="selecionarsobremesa(this)">
@@ -91,16 +98,24 @@
                <div class="nome">Pedaço de torta</div>
                <div class="descrição">Sem glúten e sem lactose</div>
                <div class="preço">R$ 8,90</div>
+               <div class="icone escondido"><ion-icon name="checkmark-circle"></ion-icon></div>
                </button></div>
            </div>        
         </div>
      </div>
      <div class="seleção">
          <div class="seleciona">
+            <button onclick="pedido(this)">
              <div class="textoseleciona">
             Selecione os 3 itens para fechar o pedido
             </div>
-        </div> 
+        </button></div> 
+        <div class="fecharpedido escondido">
+            <button onclick="fecharpedido(this)">
+            <div class="textofecharpedido">
+            Fechar pedido
+            </div>
+        </button></div>
      </div>
      <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
      <script src="scripts.js"></script>
